@@ -74,12 +74,19 @@ As variáveis mais importantes para a predição de churn foram:
 
 ### 🔹 Regressão Logística
 
-Com base nos coeficientes do modelo:
+Com base nos coeficientes do modelo, as variáveis que mais influenciaram o churn foram:
 
 - **Variáveis que diminuem a chance de churn**:
-  - `Tenure`, `Contract_Two year`, `TechSupport_Yes`, `PhoneService_Yes`
+  - `tenure`
+  - `Contract_Two year`
+  - `TechSupport_Yes`
+  - `PhoneService_Yes`
+
 - **Variáveis que aumentam a chance de churn**:
-  - `Charges.Total`, `InternetService_Fiber optic`, `PaperlessBilling_Yes`, `PaymentMethod_Electronic check`
+  - `Charges.Total`
+  - `InternetService_Fiber optic`
+  - `PaperlessBilling_Yes`
+  - `PaymentMethod_Electronic check`
 
 ---
 
